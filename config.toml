@@ -1,4 +1,4 @@
-baseurl = "http://labjournal.weburn.ru/"
+baseurl = "https://fpaint.github.io/"
 languageCode = "ru"
 defaultContentLanguage = "ru"
 title = "Lab journal"
