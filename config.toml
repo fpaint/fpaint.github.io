@@ -1,0 +1,47 @@
+baseurl = "http://labjournal.weburn.ru/"
+languageCode = "ru"
+defaultContentLanguage = "ru"
+title = "Lab journal"
+theme = "beautifulhugo"
+paginate = 10
+enableEmoji = true
+enableRobotsTXT = true
+pluralizelisttitles = false
+
+[params]
+  twitterName = "afandrey"
+  githubName = "fpaint"
+  subtitle = "Отчёты о происходящем"  
+  # dateFormat = "January 2, 2006"
+  # commit = false
+  rss = true
+  # comments = true
+  logo = "/images/me.jpg"
+  favicon = "img/favicon.ico"
+  blogTitle = "Лабораторный дневник"
+  relativeURLs = true
+  mainSections = "post"
+
+[Author]
+  name = "Andrew"
+  email = "fpaint@gmail.com"
+  github = "fpaint"
+  twitter = "RealFpaint"  
+
+[[menu.main]]
+    name = "Блог"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Проекты"
+    url = "/projects/"
+    weight = 2
+
+[[menu.main]]
+    name = "О сайте"
+    url = "/about/"
+    weight = 3
+
+[markup.goldmark.renderer]
+    unsafe = true
