@@ -46,4 +46,18 @@ tags: ['ruby']
   end
 ```
 
-То есть, можно смело писать модули вместо чисто статических классов. 
+
+### extend self
+
+А ещё есть другой способ сделать тоже самое. По некоторым [сведениям](https://www.mendelowski.com/docs/ruby/self-vs-extend-self-vs-module-function/) даже более правильный, чем `module_function`:
+
+```ruby
+  module MyModule
+    extend self
+
+    def static_function
+      puts 'It works!'
+    end
+  end
+```
+
